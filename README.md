@@ -6,5 +6,9 @@ The contract specifies 0x2fF33140C03011e84E745499598FBD147308d7D8 address which 
 The contract also introduces reentrancy guard, ownable etc capabilities from openzeppelin to make sure payable functions are secure and admin
 functions can only be applied by the owner contract.
 
+Just replace <your_address> with your wallet address compatible with Goerli testnet EVM, and take it from there.
+
 CoKOIN (COKE) token:
 https://goerli.etherscan.io/address/0x2fF33140C03011e84E745499598FBD147308d7D8
+
+
