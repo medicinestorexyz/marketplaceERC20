@@ -11,4 +11,12 @@ Just replace <your_address> with your wallet address compatible with Goerli test
 CoKOIN (COKE) token:
 https://goerli.etherscan.io/address/0x2fF33140C03011e84E745499598FBD147308d7D8
 
+UPDATE:
+Added a gas optimal cut down version that will be used during https://medicinestore.xyz presale public launch, just replace
+<token> and <owner> placeholders to make use of the contract.
+
+Reasons for having no sale function and withdraw all eth and erc20 token functions is to withdraw funds and manually handle adding Uniswap Liquidity
+when the presale ends, and to stop token hodlers from selling during presale and wait for the liquidity initiation.
+
+The Percentages to be allocated for presale, DEX and more are listed on the website.
 
