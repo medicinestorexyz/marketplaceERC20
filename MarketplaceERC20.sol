@@ -16,7 +16,7 @@ contract Marketplace is Ownable(<your_address>), ReentrancyGuard {
     // 0.0000001 eth
     uint256 public erc20TokenPriceDefault = 10 * 10**10 wei;
 
-    address[] public erc20Tokens = [0x2fF33140C03011e84E745499598FBD147308d7D8];
+    address[] public erc20Tokens = [0xfad325dbf70fd2b15b77d5085c937c35e265182a];
     uint256[] public erc20TokenPrices = [erc20TokenPriceDefault];
     uint256[] public erc20TokenSellPrices = [erc20TokenSellPriceDefault];
 
